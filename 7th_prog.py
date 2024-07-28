@@ -15,6 +15,5 @@ clf=MultinomialNB()
 clf.fit(x_train,y_train)
 y_pred=clf.predict(x_test)
 
-
 print(accuracy_score(y_test,y_pred))
 print(classification_report(y_test,y_pred))
